@@ -1,0 +1,54 @@
+#assim declara variaveis
+nome = ('qual seu nome?')
+idade = ('qual sua idade?')
+peso = ('quanto vc pesa?')
+#print (nome,idade,peso)
+#assim declara variaveis que perguntam
+
+
+#nome = input('qual seu nome?')
+#idade = input('qual sua idade?')
+#peso = input('quanto vc pesa?')
+#print (nome,idade,peso)
+
+
+#teste 001
+print ("ola, mundo")
+
+
+#teste 2
+nome = input('qual o seu nome?')
+print('seja bem-vindo',nome)
+
+#para operacoes matematicas
+#qualquer operador matematico sendo eles : int,float,bool,str
+# exemplos:
+# int: 1,2,3,-4,0
+# float: 4.2,-4.3,0.333
+# bool: True or False
+# str: 'ola', '7.5','9',' '
+n1 = int (input('valor um igual: '))
+n2 = int (input('valor dois igual: '))
+total = (n1 + n2)
+print('a soma entre: {} mais {} vale {}'.format(n1,n2,total))
+
+#crie um programa que leia dois numeros e mostre a soma entre eles
+num1 = int(input('qual o valor: ')) 
+num2 = int(input('qual o valor: ')) 
+soma=(num1 + num2)
+print('a soma de {} e {} é igual {}'.format(num1,num2,soma))
+
+#faca um programa que leia algo pelo teclado e mostre seu tipo primitivo e todas as informacoes possiveis sobre ela
+algo = input('digite algo ')
+print(algo.isalnum())
+print(algo.isalpha())
+print(algo.isdecimal())
+print(algo.isascii())
+print(algo.isdigit())
+print(algo.isidentifier())
+print(algo.isspace())
+print(algo.islower())
+
+
+
+
